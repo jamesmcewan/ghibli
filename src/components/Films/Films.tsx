@@ -10,4 +10,8 @@ const Films = ({ films }: FilmsProps) => (
   </StyledContent>
 );
 
+Films.defaultProps = {
+  films: []
+};
+
 export default Films;

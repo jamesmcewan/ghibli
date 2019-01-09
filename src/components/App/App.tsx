@@ -18,13 +18,14 @@ interface AppProps {
 class App extends Component<AppProps> {
   componentDidMount() {
     const { getFilms, filmsLoaded } = this.props;
-    if (!filmsLoaded) {
-      getFilms();
-    }
+    // if (!filmsLoaded) {
+    getFilms();
+    // }
   }
 
   public render() {
     const { films, filmsLoaded } = this.props;
+
     return (
       <StyledApp>
         <GlobalStyle />

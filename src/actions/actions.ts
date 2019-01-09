@@ -6,18 +6,11 @@ export const ERROR = 'ERROR';
 export const getFilms = () => {
   return async (dispatch: any) => {
     try {
-      const jsonData = await getData();
-      const { title, id, description, director, release_date } = await jsonData;
+      const data = await getData();
 
       return dispatch({
         type: 'GET_FILMS',
-        data: await {
-          title,
-          id,
-          description,
-          director,
-          release_date
-        },
+        data: await data
       });
     } catch (err) {
       return dispatch({
