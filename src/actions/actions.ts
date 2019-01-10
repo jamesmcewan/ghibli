@@ -15,7 +15,7 @@ export const getFilms = () => {
     } catch (err) {
       return dispatch({
         type: 'ERROR',
-        data: `${err.toString()}`,
+        data: `${err.toString()}`
       });
     }
   };

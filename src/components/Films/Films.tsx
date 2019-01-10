@@ -5,8 +5,7 @@ import StyledContent from '../../styles/StyledContent';
 
 const Films = ({ films }: FilmsProps) => (
   <StyledContent>
-    {films &&
-      films.map((film: FilmProps) => <Film {...film} key={film.id} />)}
+    {films && films.map((film: FilmProps) => <Film {...film} key={film.id} />)}
   </StyledContent>
 );
 

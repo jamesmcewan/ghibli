@@ -39,7 +39,7 @@ class App extends Component<AppProps> {
 const mapStateToProps = (state: any) => {
   return {
     films: state.films.films,
-    filmsLoaded: state.films.filmsLoaded,
+    filmsLoaded: state.films.filmsLoaded
   };
 };
 
