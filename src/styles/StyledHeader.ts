@@ -5,10 +5,10 @@ const StyledHeader = styled.header`
   height: 300px;
 
   @media screen and (min-width: ${breakpoints.large}) {
-  display: grid;
-  align-content: center;
-  align-items: center;
-  height: 100vh;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
   img {

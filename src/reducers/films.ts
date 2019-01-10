@@ -2,7 +2,7 @@ import { GET_FILMS, ERROR } from '../actions/actions';
 
 const initialState = {
   films: [],
-  filmsLoaded: false,
+  filmsLoaded: false
 };
 
 const films = (state = initialState, action: any) => {
@@ -13,7 +13,7 @@ const films = (state = initialState, action: any) => {
       return {
         ...state,
         films: data,
-        filmsLoaded: true,
+        filmsLoaded: true
       };
     case ERROR:
       return state;
