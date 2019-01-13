@@ -8,13 +8,12 @@ const StyledContent = styled.main`
   padding: 1.6rem;
 
   @media screen and (min-width: ${breakpoints.medium}) {
-  padding: 2.6rem;
+    padding: 2.6rem;
   }
 
   @media screen and (min-width: ${breakpoints.large}) {
-
-  max-height: 100vh;
-  overflow:auto;
+    max-height: 100vh;
+    overflow: auto;
   }
 `;
 

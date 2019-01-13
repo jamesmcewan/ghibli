@@ -12,8 +12,8 @@ const StyledArticle = styled.article`
     margin-bottom: 1rem;
 
     @media screen and (min-width: ${breakpoints.medium}) {
-    font-size: 2.5rem;
-    margin-bottom: 1.3rem;
+      font-size: 2.5rem;
+      margin-bottom: 1.3rem;
     }
   }
 
@@ -21,7 +21,7 @@ const StyledArticle = styled.article`
     font-size: 1.4rem;
     font-weight: 500;
     margin: 0;
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
     text-align: justify;
 
     @media screen and (min-width: ${breakpoints.medium}) {
@@ -34,7 +34,7 @@ const StyledArticle = styled.article`
     font-size: 1.3rem;
     font-weight: 500;
     margin: 0;
-    margin-bottom: .8rem;
+    margin-bottom: 0.8rem;
     text-align: justify;
 
     @media screen and (min-width: ${breakpoints.medium}) {
@@ -47,13 +47,12 @@ const StyledArticle = styled.article`
     font-size: 1.3rem;
     font-weight: 300;
     line-height: 1.5;
-    margin:0;
+    margin: 0;
 
     @media screen and (min-width: ${breakpoints.medium}) {
       font-size: 1.4rem;
     }
   }
-
 `;
 
 export default StyledArticle;
